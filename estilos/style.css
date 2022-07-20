@@ -44,3 +44,24 @@ iframe#tela {
     width: 268px;
     height: 596px;
 }
+section#aplicativos {
+    text-align: right;
+}
+
+section#aplicativos img.redesocial {
+    width: 50px;
+    margin: 0px 0px 10px 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.352);
+    box-sizing: border-box;
+}
+
+section#aplicativos img:hover {
+    border: 3px solid white;
+    transition-duration: 100ms;
+}
+
+section#aplicativos img:active {
+    border: 6px solid gray;
+    transition-duration: 70ms;
+}
